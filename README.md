@@ -9,3 +9,18 @@ A simple quiz game that supports the following features
 * Tie break mechanism
 * Comeback mechanic
 * Highscore table
+
+Specifications
+
+Client side
+* iPhone 5 and above - portrait mode only
+* No iPad support for the first release
+* Swift 2.2
+
+Server
+* Kitura
+* Running in the IBM Cloud
+
+
+
+
