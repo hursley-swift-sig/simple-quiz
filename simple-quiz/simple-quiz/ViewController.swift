@@ -10,16 +10,43 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var trueBtn: UIButton!
+    @IBOutlet weak var falseBtn: UIButton!
+    @IBOutlet weak var messageLbl: UILabel!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        trueBtn.layer.cornerRadius = 10.0
+        falseBtn.layer.cornerRadius = 10.0
+        
+        
+
+        
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    
+    @IBAction func trueTapped(sender: AnyObject) {
+        
+        print("Tapped the True button")
+        buttonDisplay()
+        messageLbl.text = "You got it right!"
+        
+        
     }
+    
 
-
+    @IBAction func falseTapped(sender: AnyObject) {
+        print("Tapped the False button")
+        buttonDisplay()
+        messageLbl.text = "You got it wrong!"
+        
+    }
+    
+    func buttonDisplay() {
+        trueBtn.hidden = true
+        falseBtn.hidden = true
+    }
+    
 }
 
