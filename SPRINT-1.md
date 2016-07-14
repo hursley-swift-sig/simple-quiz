@@ -4,4 +4,4 @@
 
 player POSTs true/false to the server, server responds correct/wrong
 
-![Screenshot of client](Simulator Screen Shot 14 Jul 2016, 16.53.47.png)
+<img src="Simulator Screen Shot 14 Jul 2016, 16.53.47.png" alt="Screenshot of client" width="50%">
