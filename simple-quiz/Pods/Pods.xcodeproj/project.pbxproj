@@ -1,0 +1,821 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		093E762086BF950AED3E6C185EF8C984 /* Pods-simple-quizUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 67BAF5FD2A4D60E61F931A0C820FEE70 /* Pods-simple-quizUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		15E8BCD76BAF109405AFFEE6E23DB381 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		1CE5B1F3009E92B064D4966ACB24C937 /* Pods-simple-quizUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 80366D7E53E50A8E8D549E138347F514 /* Pods-simple-quizUITests-dummy.m */; };
+		3CF238EC6795114EFAB10309A9575306 /* Pods-simple-quizTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 201B983B45AF9CC691404EC9CA8FF07C /* Pods-simple-quizTests-dummy.m */; };
+		43718016F542235753757908C594B694 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		72466E3711D927FA2B03DE019C6C3EEC /* Pods-simple-quiz-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BFE3C146A4FC095A365D32392B26B1C2 /* Pods-simple-quiz-dummy.m */; };
+		7672E083B1DDCB7C7F2E355163DB4C47 /* Pods-simple-quiz-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 51AF3DEF5718625139C03F5E4AA324D1 /* Pods-simple-quiz-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		86E81E9400240F8638FD03A4E4BB7060 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE506ECE97701EBA44FDBFF401C1A04 /* SwiftyJSON.swift */; };
+		9257EFBB7912B6E64B54D8BB14C33548 /* SwiftyJSON-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 05CA09B061E193906653AC21FD3A94F1 /* SwiftyJSON-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B5A39F10E2FA61F7B1450BD8F3AABACD /* SwiftyJSON-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 32B9BBA8F5B33E56C38F5546432F66B7 /* SwiftyJSON-dummy.m */; };
+		B5E1091954849AAF5B4DEDF46B92DC33 /* Pods-simple-quizTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A67263138C77E80FA8141EF739F5CC61 /* Pods-simple-quizTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CE6E5C38BC0F5CCF582D44BF9985FBEB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		EA588A70489954F6A158D3202C38A00E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1087F377D4B21D20C672258C39C6C364 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D2255073D3143A1F2D29C8856A0F53C8;
+			remoteInfo = SwiftyJSON;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		000C45E8B13373995B225D8775B2B2A2 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		05CA09B061E193906653AC21FD3A94F1 /* SwiftyJSON-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyJSON-umbrella.h"; sourceTree = "<group>"; };
+		1019AC19E882CCABBF18DD5FEC0A8E68 /* Pods-simple-quiz.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-simple-quiz.debug.xcconfig"; sourceTree = "<group>"; };
+		201B983B45AF9CC691404EC9CA8FF07C /* Pods-simple-quizTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-simple-quizTests-dummy.m"; sourceTree = "<group>"; };
+		2E7F7C62EE34D2D271E6E1234A2002B2 /* SwiftyJSON.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftyJSON.xcconfig; sourceTree = "<group>"; };
+		32B9BBA8F5B33E56C38F5546432F66B7 /* SwiftyJSON-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftyJSON-dummy.m"; sourceTree = "<group>"; };
+		3A1AD9F02054FAA6C5F6F607FC6FC5B9 /* Pods_simple_quiz.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_simple_quiz.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		41A5319EFBBF21F9071068B7E48F41D8 /* Pods-simple-quizTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-simple-quizTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		423A0B5A7D1C054180ED8FD4D1F8AF96 /* Pods-simple-quizUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-simple-quizUITests-resources.sh"; sourceTree = "<group>"; };
+		47DB4D5BDDC436CE9F3C9240CB3C55B2 /* Pods-simple-quizTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-simple-quizTests.debug.xcconfig"; sourceTree = "<group>"; };
+		4F3D38433F69D02E9E35A3E81D9905D7 /* Pods-simple-quizTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-simple-quizTests.release.xcconfig"; sourceTree = "<group>"; };
+		51AF3DEF5718625139C03F5E4AA324D1 /* Pods-simple-quiz-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-simple-quiz-umbrella.h"; sourceTree = "<group>"; };
+		53054B1DF649D713F0E58F007F02B73D /* Pods_simple_quizUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_simple_quizUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6127ACF0C5DA27D9F0C288B01F0CDC61 /* Pods-simple-quizTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-simple-quizTests-resources.sh"; sourceTree = "<group>"; };
+		67BAF5FD2A4D60E61F931A0C820FEE70 /* Pods-simple-quizUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-simple-quizUITests-umbrella.h"; sourceTree = "<group>"; };
+		7EA48C2CEA83B88A4E6E7DC249EC3AF1 /* Pods-simple-quizUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-simple-quizUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		7FEF7DFDE7F74FBE97A9FDB9D043DDFB /* Pods-simple-quiz-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-simple-quiz-frameworks.sh"; sourceTree = "<group>"; };
+		80366D7E53E50A8E8D549E138347F514 /* Pods-simple-quizUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-simple-quizUITests-dummy.m"; sourceTree = "<group>"; };
+		8311EACB107FD64C5B0F9B5298A462AA /* Pods-simple-quiz-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-simple-quiz-acknowledgements.plist"; sourceTree = "<group>"; };
+		895687062F81DA262079E5E255712317 /* Pods_simple_quizTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_simple_quizTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9A599665BD6339FB785A05FC7BA7863A /* Pods-simple-quiz-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-simple-quiz-resources.sh"; sourceTree = "<group>"; };
+		A30A4EBB4C8117A6F6697A984B75224D /* Pods-simple-quizUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-simple-quizUITests.modulemap"; sourceTree = "<group>"; };
+		A348C4751DC6A896EAFAD0851985A665 /* Pods-simple-quizTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-simple-quizTests-frameworks.sh"; sourceTree = "<group>"; };
+		A44FBB189966312454F4F95BCFFA3E16 /* Pods-simple-quiz.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-simple-quiz.release.xcconfig"; sourceTree = "<group>"; };
+		A67263138C77E80FA8141EF739F5CC61 /* Pods-simple-quizTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-simple-quizTests-umbrella.h"; sourceTree = "<group>"; };
+		BA5B86FB40F3A2EAFB62B82A59AEC536 /* Pods-simple-quizUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-simple-quizUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		BBF3338027EA09134479A4DBD636F05E /* Pods-simple-quizTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-simple-quizTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		BBF610E40BDF6E542FA21FF7E5491205 /* SwiftyJSON-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyJSON-prefix.pch"; sourceTree = "<group>"; };
+		BDE506ECE97701EBA44FDBFF401C1A04 /* SwiftyJSON.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftyJSON.swift; path = Source/SwiftyJSON.swift; sourceTree = "<group>"; };
+		BFB0C3956E62FC215BE647B0C0E8AFB6 /* Pods-simple-quiz.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-simple-quiz.modulemap"; sourceTree = "<group>"; };
+		BFE3C146A4FC095A365D32392B26B1C2 /* Pods-simple-quiz-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-simple-quiz-dummy.m"; sourceTree = "<group>"; };
+		C0C17B21F18412A7F3C9115A742BDDC8 /* Pods-simple-quizTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-simple-quizTests.modulemap"; sourceTree = "<group>"; };
+		C15879F17497D6A384417ABC2CF7A192 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C4A9A658C966F6BB111BEDBDEA1F874A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C88A7A5979F45F5FDC4909E917F4A4CE /* Pods-simple-quiz-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-simple-quiz-acknowledgements.markdown"; sourceTree = "<group>"; };
+		CE1E280EBBAD279FB19C04ACE9EA7E00 /* SwiftyJSON.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftyJSON.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D032A29E584B77AE187E586922267CF5 /* SwiftyJSON.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = SwiftyJSON.modulemap; sourceTree = "<group>"; };
+		DEC376F3C7E6812E72A504DC8E578B78 /* Pods-simple-quizUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-simple-quizUITests-frameworks.sh"; sourceTree = "<group>"; };
+		EA4906C1E5DAF1B80CC043B8EA5C96D0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECDF236366FA0C83E9D74D15D2CABD9E /* Pods-simple-quizUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-simple-quizUITests.release.xcconfig"; sourceTree = "<group>"; };
+		F423A128424C99C286EE3FB861960390 /* Pods-simple-quizUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-simple-quizUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3E172DD5BBEC7C126D30077F876EA465 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE6E5C38BC0F5CCF582D44BF9985FBEB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7DFF0807216943F5CD45A597275DA70B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43718016F542235753757908C594B694 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E2D7ADBF108A35F2CD211F9378741C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA588A70489954F6A158D3202C38A00E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D49660B965CF72D21E38D4091C9CA7E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15E8BCD76BAF109405AFFEE6E23DB381 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		5348EF97CD4A7C44D757816119F1CEF4 /* Pods-simple-quizUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C15879F17497D6A384417ABC2CF7A192 /* Info.plist */,
+				A30A4EBB4C8117A6F6697A984B75224D /* Pods-simple-quizUITests.modulemap */,
+				7EA48C2CEA83B88A4E6E7DC249EC3AF1 /* Pods-simple-quizUITests-acknowledgements.markdown */,
+				F423A128424C99C286EE3FB861960390 /* Pods-simple-quizUITests-acknowledgements.plist */,
+				80366D7E53E50A8E8D549E138347F514 /* Pods-simple-quizUITests-dummy.m */,
+				DEC376F3C7E6812E72A504DC8E578B78 /* Pods-simple-quizUITests-frameworks.sh */,
+				423A0B5A7D1C054180ED8FD4D1F8AF96 /* Pods-simple-quizUITests-resources.sh */,
+				67BAF5FD2A4D60E61F931A0C820FEE70 /* Pods-simple-quizUITests-umbrella.h */,
+				BA5B86FB40F3A2EAFB62B82A59AEC536 /* Pods-simple-quizUITests.debug.xcconfig */,
+				ECDF236366FA0C83E9D74D15D2CABD9E /* Pods-simple-quizUITests.release.xcconfig */,
+			);
+			name = "Pods-simple-quizUITests";
+			path = "Target Support Files/Pods-simple-quizUITests";
+			sourceTree = "<group>";
+		};
+		70A8E4D3C62B6C203D238581DA091C21 /* SwiftyJSON */ = {
+			isa = PBXGroup;
+			children = (
+				BDE506ECE97701EBA44FDBFF401C1A04 /* SwiftyJSON.swift */,
+				8EC39E1DC11846207722B71AAFE40F98 /* Support Files */,
+			);
+			path = SwiftyJSON;
+			sourceTree = "<group>";
+		};
+		7183FAA314B74C1ACE23C1362FCE2167 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3A1AD9F02054FAA6C5F6F607FC6FC5B9 /* Pods_simple_quiz.framework */,
+				895687062F81DA262079E5E255712317 /* Pods_simple_quizTests.framework */,
+				53054B1DF649D713F0E58F007F02B73D /* Pods_simple_quizUITests.framework */,
+				CE1E280EBBAD279FB19C04ACE9EA7E00 /* SwiftyJSON.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				BD1E3C710F12F4B4C092FC8E2AD22110 /* Pods */,
+				7183FAA314B74C1ACE23C1362FCE2167 /* Products */,
+				879E3BA9F14CF295CF84148D44483D75 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		879E3BA9F14CF295CF84148D44483D75 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				91A848C3DB9CB5A291D0108ACF43EE0F /* Pods-simple-quiz */,
+				EAB7A9D81259E1C12BD1E549B7E9D946 /* Pods-simple-quizTests */,
+				5348EF97CD4A7C44D757816119F1CEF4 /* Pods-simple-quizUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		8EC39E1DC11846207722B71AAFE40F98 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C4A9A658C966F6BB111BEDBDEA1F874A /* Info.plist */,
+				D032A29E584B77AE187E586922267CF5 /* SwiftyJSON.modulemap */,
+				2E7F7C62EE34D2D271E6E1234A2002B2 /* SwiftyJSON.xcconfig */,
+				32B9BBA8F5B33E56C38F5546432F66B7 /* SwiftyJSON-dummy.m */,
+				BBF610E40BDF6E542FA21FF7E5491205 /* SwiftyJSON-prefix.pch */,
+				05CA09B061E193906653AC21FD3A94F1 /* SwiftyJSON-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SwiftyJSON";
+			sourceTree = "<group>";
+		};
+		91A848C3DB9CB5A291D0108ACF43EE0F /* Pods-simple-quiz */ = {
+			isa = PBXGroup;
+			children = (
+				000C45E8B13373995B225D8775B2B2A2 /* Info.plist */,
+				BFB0C3956E62FC215BE647B0C0E8AFB6 /* Pods-simple-quiz.modulemap */,
+				C88A7A5979F45F5FDC4909E917F4A4CE /* Pods-simple-quiz-acknowledgements.markdown */,
+				8311EACB107FD64C5B0F9B5298A462AA /* Pods-simple-quiz-acknowledgements.plist */,
+				BFE3C146A4FC095A365D32392B26B1C2 /* Pods-simple-quiz-dummy.m */,
+				7FEF7DFDE7F74FBE97A9FDB9D043DDFB /* Pods-simple-quiz-frameworks.sh */,
+				9A599665BD6339FB785A05FC7BA7863A /* Pods-simple-quiz-resources.sh */,
+				51AF3DEF5718625139C03F5E4AA324D1 /* Pods-simple-quiz-umbrella.h */,
+				1019AC19E882CCABBF18DD5FEC0A8E68 /* Pods-simple-quiz.debug.xcconfig */,
+				A44FBB189966312454F4F95BCFFA3E16 /* Pods-simple-quiz.release.xcconfig */,
+			);
+			name = "Pods-simple-quiz";
+			path = "Target Support Files/Pods-simple-quiz";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BD1E3C710F12F4B4C092FC8E2AD22110 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				70A8E4D3C62B6C203D238581DA091C21 /* SwiftyJSON */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		EAB7A9D81259E1C12BD1E549B7E9D946 /* Pods-simple-quizTests */ = {
+			isa = PBXGroup;
+			children = (
+				EA4906C1E5DAF1B80CC043B8EA5C96D0 /* Info.plist */,
+				C0C17B21F18412A7F3C9115A742BDDC8 /* Pods-simple-quizTests.modulemap */,
+				BBF3338027EA09134479A4DBD636F05E /* Pods-simple-quizTests-acknowledgements.markdown */,
+				41A5319EFBBF21F9071068B7E48F41D8 /* Pods-simple-quizTests-acknowledgements.plist */,
+				201B983B45AF9CC691404EC9CA8FF07C /* Pods-simple-quizTests-dummy.m */,
+				A348C4751DC6A896EAFAD0851985A665 /* Pods-simple-quizTests-frameworks.sh */,
+				6127ACF0C5DA27D9F0C288B01F0CDC61 /* Pods-simple-quizTests-resources.sh */,
+				A67263138C77E80FA8141EF739F5CC61 /* Pods-simple-quizTests-umbrella.h */,
+				47DB4D5BDDC436CE9F3C9240CB3C55B2 /* Pods-simple-quizTests.debug.xcconfig */,
+				4F3D38433F69D02E9E35A3E81D9905D7 /* Pods-simple-quizTests.release.xcconfig */,
+			);
+			name = "Pods-simple-quizTests";
+			path = "Target Support Files/Pods-simple-quizTests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		04E739F56F2E4549704AD8B451033A5F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9257EFBB7912B6E64B54D8BB14C33548 /* SwiftyJSON-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FDC3D5B72DDFBAE293B64371E145F14 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5E1091954849AAF5B4DEDF46B92DC33 /* Pods-simple-quizTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81FCDDAB4BDE3CC287B348D267484DD4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				093E762086BF950AED3E6C185EF8C984 /* Pods-simple-quizUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8621147A883EC45E9AB738AAE300798F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7672E083B1DDCB7C7F2E355163DB4C47 /* Pods-simple-quiz-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		09849C2BAEDABF5473206873E333FD49 /* Pods-simple-quizTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C5AC580B1744F4C350C2A51DE5C9CA9 /* Build configuration list for PBXNativeTarget "Pods-simple-quizTests" */;
+			buildPhases = (
+				064D20679B2C7FD05F3BA3ABF7EFBB70 /* Sources */,
+				8E2D7ADBF108A35F2CD211F9378741C3 /* Frameworks */,
+				3FDC3D5B72DDFBAE293B64371E145F14 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-simple-quizTests";
+			productName = "Pods-simple-quizTests";
+			productReference = 895687062F81DA262079E5E255712317 /* Pods_simple_quizTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		1F49EBCEC8A23BDF48C8D3BB96800A6B /* Pods-simple-quiz */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 97481AC18DCF2A02E6119E4C38514480 /* Build configuration list for PBXNativeTarget "Pods-simple-quiz" */;
+			buildPhases = (
+				DE1B5CAB9386D22BE2F6BA31AE303309 /* Sources */,
+				D49660B965CF72D21E38D4091C9CA7E0 /* Frameworks */,
+				8621147A883EC45E9AB738AAE300798F /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B7232D7E96D5AC8D425A857FC61F974B /* PBXTargetDependency */,
+			);
+			name = "Pods-simple-quiz";
+			productName = "Pods-simple-quiz";
+			productReference = 3A1AD9F02054FAA6C5F6F607FC6FC5B9 /* Pods_simple_quiz.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		48F1B3AC2219DD13E884054488515720 /* Pods-simple-quizUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 635ABC6DB2645BCDC0DCC37039F5082B /* Build configuration list for PBXNativeTarget "Pods-simple-quizUITests" */;
+			buildPhases = (
+				BDD8162068886749A2DA678C761A799B /* Sources */,
+				3E172DD5BBEC7C126D30077F876EA465 /* Frameworks */,
+				81FCDDAB4BDE3CC287B348D267484DD4 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-simple-quizUITests";
+			productName = "Pods-simple-quizUITests";
+			productReference = 53054B1DF649D713F0E58F007F02B73D /* Pods_simple_quizUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D2255073D3143A1F2D29C8856A0F53C8 /* SwiftyJSON */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34D15906C2B0D7B3932399137C1E20B1 /* Build configuration list for PBXNativeTarget "SwiftyJSON" */;
+			buildPhases = (
+				44F72EB08C572C2CE409856BD26A8D82 /* Sources */,
+				7DFF0807216943F5CD45A597275DA70B /* Frameworks */,
+				04E739F56F2E4549704AD8B451033A5F /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftyJSON;
+			productName = SwiftyJSON;
+			productReference = CE1E280EBBAD279FB19C04ACE9EA7E00 /* SwiftyJSON.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 7183FAA314B74C1ACE23C1362FCE2167 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1F49EBCEC8A23BDF48C8D3BB96800A6B /* Pods-simple-quiz */,
+				09849C2BAEDABF5473206873E333FD49 /* Pods-simple-quizTests */,
+				48F1B3AC2219DD13E884054488515720 /* Pods-simple-quizUITests */,
+				D2255073D3143A1F2D29C8856A0F53C8 /* SwiftyJSON */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		064D20679B2C7FD05F3BA3ABF7EFBB70 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CF238EC6795114EFAB10309A9575306 /* Pods-simple-quizTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44F72EB08C572C2CE409856BD26A8D82 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5A39F10E2FA61F7B1450BD8F3AABACD /* SwiftyJSON-dummy.m in Sources */,
+				86E81E9400240F8638FD03A4E4BB7060 /* SwiftyJSON.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDD8162068886749A2DA678C761A799B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CE5B1F3009E92B064D4966ACB24C937 /* Pods-simple-quizUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE1B5CAB9386D22BE2F6BA31AE303309 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72466E3711D927FA2B03DE019C6C3EEC /* Pods-simple-quiz-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B7232D7E96D5AC8D425A857FC61F974B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftyJSON;
+			target = D2255073D3143A1F2D29C8856A0F53C8 /* SwiftyJSON */;
+			targetProxy = 1087F377D4B21D20C672258C39C6C364 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		13FE33E82D32C4BF7633157EB176C6AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2E7F7C62EE34D2D271E6E1234A2002B2 /* SwiftyJSON.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftyJSON/SwiftyJSON-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftyJSON/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftyJSON/SwiftyJSON.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = SwiftyJSON;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		190E2D17BBC053A822F90738A792E695 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BA5B86FB40F3A2EAFB62B82A59AEC536 /* Pods-simple-quizUITests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-simple-quizUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-simple-quizUITests/Pods-simple-quizUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_simple_quizUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		26E144E9C6E49606B37A6CF565AA50A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ECDF236366FA0C83E9D74D15D2CABD9E /* Pods-simple-quizUITests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-simple-quizUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-simple-quizUITests/Pods-simple-quizUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_simple_quizUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3FA451D268613890FA8A5A03801E11D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5E62115DE8C09934BF8D2FE5D15FED1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		96BA4280BF1498B05AE4DA8B8B701EB0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1019AC19E882CCABBF18DD5FEC0A8E68 /* Pods-simple-quiz.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-simple-quiz/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-simple-quiz/Pods-simple-quiz.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_simple_quiz;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A5FAB24E19AA00EAB8A3FFC4BAAB4495 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F3D38433F69D02E9E35A3E81D9905D7 /* Pods-simple-quizTests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-simple-quizTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-simple-quizTests/Pods-simple-quizTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_simple_quizTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		ABCCE44C87E21643DB76D8F7043D8BC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 47DB4D5BDDC436CE9F3C9240CB3C55B2 /* Pods-simple-quizTests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-simple-quizTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-simple-quizTests/Pods-simple-quizTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_simple_quizTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B51C4A66542D5D24313C71C64C27D6BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2E7F7C62EE34D2D271E6E1234A2002B2 /* SwiftyJSON.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftyJSON/SwiftyJSON-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftyJSON/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftyJSON/SwiftyJSON.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = SwiftyJSON;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E0BB6C1E762386FA51734EDC560F95F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A44FBB189966312454F4F95BCFFA3E16 /* Pods-simple-quiz.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-simple-quiz/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-simple-quiz/Pods-simple-quiz.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_simple_quiz;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E62115DE8C09934BF8D2FE5D15FED1E /* Debug */,
+				3FA451D268613890FA8A5A03801E11D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		34D15906C2B0D7B3932399137C1E20B1 /* Build configuration list for PBXNativeTarget "SwiftyJSON" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B51C4A66542D5D24313C71C64C27D6BC /* Debug */,
+				13FE33E82D32C4BF7633157EB176C6AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		635ABC6DB2645BCDC0DCC37039F5082B /* Build configuration list for PBXNativeTarget "Pods-simple-quizUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				190E2D17BBC053A822F90738A792E695 /* Debug */,
+				26E144E9C6E49606B37A6CF565AA50A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C5AC580B1744F4C350C2A51DE5C9CA9 /* Build configuration list for PBXNativeTarget "Pods-simple-quizTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABCCE44C87E21643DB76D8F7043D8BC3 /* Debug */,
+				A5FAB24E19AA00EAB8A3FFC4BAAB4495 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		97481AC18DCF2A02E6119E4C38514480 /* Build configuration list for PBXNativeTarget "Pods-simple-quiz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96BA4280BF1498B05AE4DA8B8B701EB0 /* Debug */,
+				E0BB6C1E762386FA51734EDC560F95F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
