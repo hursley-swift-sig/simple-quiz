@@ -1,3 +1,5 @@
+[Information on this sprint has been moved to an issue](../../issues/4)
+
 # Sprint 1
 
 1 player GETs a true/false question from the server
